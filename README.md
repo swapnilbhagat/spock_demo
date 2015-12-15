@@ -1,6 +1,5 @@
 # spock_demo
-Demo spock application
-
-Steps
-1. Import the project into workspace
-2. Run ServiceToBeTestedSpecification.groovy
+Contains demo for 
+1. ServiceToBeTestedSpecification :- Spock specification for a service.
+2. GitHubSpecification :- Spock specification with geb for simple automation of github.
+3. RestWSSpecification :- Spock specification for testing a rest ws. Please run rest_demo before executing this specification.

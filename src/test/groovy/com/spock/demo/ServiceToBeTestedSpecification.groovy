@@ -1,19 +1,12 @@
 /**
  * 
  */
-package com.spock.test
+package com.spock.demo
 
-import org.spockframework.runtime.model.SpecMetadata;
-import com.spock.demo.ServiceToBeTested;
 import spock.lang.Specification
 
-/**
- * Specification for ServiceToBeTested.
- * 
- * @author SwapnilB
- *
- */
 class ServiceToBeTestedSpecification extends Specification {
+	
 	def doesNotContainsABCScenario1(){
 		given:
 		def param = 'AAAAAA'
